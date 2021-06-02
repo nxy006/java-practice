@@ -1,4 +1,4 @@
-package com.nxy006.project.practice.java.source.lang;
+package com.nxy006.project.practice.source.jdk8.lang;
 
 import com.nxy006.project.practice.utils.PrintUtils;
 

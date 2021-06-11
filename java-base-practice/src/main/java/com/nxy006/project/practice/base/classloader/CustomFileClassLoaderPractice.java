@@ -54,5 +54,4 @@ public class CustomFileClassLoaderPractice {
             return data;
         }
     }
-
 }

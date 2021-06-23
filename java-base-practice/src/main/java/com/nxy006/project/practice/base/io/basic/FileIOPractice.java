@@ -1,4 +1,4 @@
-package com.nxy006.project.practice.base.io;
+package com.nxy006.project.practice.base.io.basic;
 
 
 import org.apache.logging.log4j.LogManager;

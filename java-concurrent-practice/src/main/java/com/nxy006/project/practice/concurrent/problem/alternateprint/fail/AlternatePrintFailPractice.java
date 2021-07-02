@@ -15,7 +15,7 @@ public class AlternatePrintFailPractice {
         new OddPrintThread().start();
         new EvenPrintThread().start();
 
-        // 问题 1：调用 oddLock.notify() 可能在 oddLock.wait() 之前，导致 oddLock.wait() 调用后一直无法被触发，线程无线阻塞
+        // 问题 1：调用 oddLock.notify() 可能在 oddLock.wait() 之前，导致 oddLock.wait() 调用后一直无法被触发，线程无限阻塞
         synchronized (oddLock) {
             oddLock.notify();
         }
